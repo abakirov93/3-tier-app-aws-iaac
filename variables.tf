@@ -1,6 +1,6 @@
 # remote configuration
 terraform {
-  required_version = ">= 0.11.1"
+  required_version = "0.11.14"
 
   backend "s3" {
     encrypt = "true"
