@@ -1,14 +1,14 @@
-terraform {
-  required_version = "0.11.14"
+# terraform {
+#   required_version = "0.11.14"
 
-  backend "s3" {
-    bucket = "3-tier-beksalizhan"
-    key    = "path/to/my/key"
+#   backend "s3" {
+#     bucket = "3-tier-beksalizhan"
+#     key    = "path/to/my/key"
 
-    #    dynamodb table = "bek_salizhan"
-    region = "us-east-2"
-  }
-}
+#     #    dynamodb table = "bek_salizhan"
+#     region = "us-east-2"
+#   }
+# }
 
 # resource "aws_iam_group" "developers" {
 #   name = "developers"
