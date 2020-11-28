@@ -1,0 +1,3 @@
+bucket = "3-tier-beksalizhan"
+key    = "terraform.tfstate"
+region = "us-east-2"
